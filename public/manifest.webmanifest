@@ -1,0 +1,16 @@
+{
+  "name": "Salon Agentic AI",
+  "short_name": "Salon Agent",
+  "description": "Agent quảng cáo và mạng xã hội cho The One · Dark Hair · Mishang",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#171717",
+  "theme_color": "#171717",
+  "lang": "vi",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

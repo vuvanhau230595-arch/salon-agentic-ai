@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Salon Agentic AI</title>
+<!-- Chế độ điện thoại: thêm vào Màn hình chính (iPhone: Chia sẻ → Thêm vào MH chính) là mở như app, không có thanh địa chỉ -->
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/icons/icon-180.png">
+<meta name="theme-color" content="#171717">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Salon Agent">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t;else if(matchMedia('(prefers-color-scheme: dark)').matches)document.documentElement.dataset.theme='dark';if(localStorage.getItem('navCollapsed')==='1')document.documentElement.classList.add('pre-collapsed')}catch(e){}</script>
+</head>
+<body>
+<aside class="side" id="side">
+  <div class="brand"><span class="logo">✦</span><div><b>Salon Agentic AI</b><small>Vũ Văn Hậu</small></div></div>
+  <nav id="nav" aria-label="Menu chính"></nav>
+  <div class="conn" id="conn"></div>
+  <button class="collapse" id="collapseBtn" type="button" aria-label="Thu gọn / mở rộng menu"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg><span>Thu gọn</span></button>
+</aside>
+<main>
+  <div id="offline">Mất kết nối tới máy chủ — dữ liệu có thể đã cũ. Đang thử lại…</div>
+  <header class="top">
+    <button class="iconbtn menu-btn" id="menuBtn" type="button" aria-label="Mở menu"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+    <span class="crumb" id="crumb"></span>
+    <div class="gsearch"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input id="gsearch" type="search" placeholder="Tìm trang hoặc chiến dịch…" autocomplete="off" aria-label="Tìm kiếm"><div class="gresults" id="gresults"></div></div>
+    <div class="relw"><button class="iconbtn" id="bellBtn" type="button" aria-label="Thông báo"><svg viewBox="0 0 24 24"><path d="M18 8a6 6 0 10-12 0c0 7-3 9-3 9h18s-3-2-3-9M13.7 21a2 2 0 01-3.4 0"/></svg><span class="badge" id="bellN" style="display:none"></span></button><div class="pop" id="bellPop"></div></div>
+    <button class="iconbtn" id="themeBtn" type="button" aria-label="Đổi sáng/tối"><svg viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1111.2 3a7 7 0 009.8 9.8z"/></svg></button>
+    <button id="killBtn" class="kill"></button>
+  </header>
+  <div id="view"></div>
+</main>
+<div id="toast"></div>
+<div id="layer"></div>
+<script src="app.js"></script>
+<script src="ads.js"></script>
+<script src="overview.js"></script>
+<script src="approvals.js"></script>
+<script src="calendar.js"></script>
+<script src="monthplan.js"></script>
+<script src="automation.js"></script>
+<script src="agents.js"></script>
+<script src="content.js"></script>
+<script src="channels.js"></script>
+<script src="auditlog.js"></script>
+<script src="brands.js"></script>
+<script src="media.js"></script>
+<script src="knowledge.js"></script>
+<script src="settings.js"></script>
+<script src="assistant.js"></script>
+<script src="shell.js"></script>
+<script src="replies.js"></script>
+</body>
+</html>

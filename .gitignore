@@ -1,0 +1,17 @@
+# Bí mật & dữ liệu chạy thật
+.env
+data/
+*.log
+
+# Thư mục nặng / file tạm (không đưa lên git)
+node_modules/
+media/
+downloads/
+work/
+output/
+tools/realesrgan/
+pos-xem-thu/
+
+# Rác hệ thống
+.DS_Store
+Thumbs.db

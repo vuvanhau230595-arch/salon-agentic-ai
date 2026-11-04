@@ -1,0 +1,10 @@
+[Unit]
+Description=Kiem tra dinh ky khoi site Salon Agentic AI trong Caddyfile (phong khi bo qua su kien thay doi file)
+
+[Timer]
+OnBootSec=2min
+OnUnitInactiveSec=5min
+Unit=salon-agentic-caddy-guard.service
+
+[Install]
+WantedBy=timers.target

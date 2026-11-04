@@ -1,0 +1,7 @@
+[Unit]
+Description=Giu khoi site Salon Agentic AI trong Caddyfile
+After=caddy.service
+
+[Service]
+Type=oneshot
+ExecStart=/opt/salon-agentic-ai/deploy/caddy-guard.sh

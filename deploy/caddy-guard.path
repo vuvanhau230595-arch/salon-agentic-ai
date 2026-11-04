@@ -1,0 +1,10 @@
+[Unit]
+Description=Theo doi Caddyfile de giu khoi site Salon Agentic AI
+
+[Path]
+PathChanged=/etc/caddy/Caddyfile
+PathModified=/etc/caddy/Caddyfile
+Unit=salon-agentic-caddy-guard.service
+
+[Install]
+WantedBy=multi-user.target

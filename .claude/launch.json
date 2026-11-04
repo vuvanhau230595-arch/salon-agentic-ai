@@ -1,0 +1,57 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "salon-agentic-ai",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "src/server.js"
+      ],
+      "port": 3950
+    },
+    {
+      "name": "agent-postads-preview",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "C:/Users/Admin/AppData/Local/Temp/claude/C--Users-Admin-salon-agentic-ai/07f5612d-44c2-4683-b7aa-47113fe6e0ad/scratchpad/preview-postads.js"
+      ],
+      "port": 3951
+    },
+    {
+      "name": "salon-pos-local",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "C:/Users/Admin/salon-pos/server.js"
+      ],
+      "port": 3900
+    },
+    {
+      "name": "salon-pos-faults-preview",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "C:/Users/Admin/AppData/Local/Temp/claude/C--Users-Admin-salon-agentic-ai/f30c1851-127d-4731-8070-4ae36e273c91/scratchpad/faults-preview.js"
+      ],
+      "port": 3902
+    },
+    {
+      "name": "agent-calendar-preview",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "C:/Users/Admin/AppData/Local/Temp/claude/C--Users-Admin-salon-agentic-ai/300628e3-c02f-46c5-8456-193341333780/scratchpad/preview-cal.js"
+      ],
+      "port": 3961
+    },
+    {
+      "name": "duyet-anh-toc",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "3970",
+        "--directory",
+        "work/kenh-anh-toc"
+      ],
+      "port": 3970
+    }
+  ]
+}

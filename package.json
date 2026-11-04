@@ -1,0 +1,7 @@
+{
+  "name": "salon-agentic-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agent quản lý quảng cáo & mạng xã hội cho The One · Dark Hair · Mishang",
+  "scripts": { "start": "node src/server.js", "test": "node --test --test-concurrency=2 test/*.test.js" }
+}
